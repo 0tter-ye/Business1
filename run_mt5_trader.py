@@ -69,7 +69,7 @@ signal_lock = threading.Lock()
 
 # MT5 Credentials Setup
 MT5_LOGIN = os.getenv('5674847')  # Environment variable name, not value
-MT5_PASSWORD = os.getenv('George_2002') 
+MT5_PASSWORD = os.getenv('') 
 MT5_SERVER = os.getenv('OANDA-Demo-1')
 
 if not all([MT5_LOGIN, MT5_PASSWORD, MT5_SERVER]):
