@@ -75,7 +75,7 @@ MT5_SERVER = os.getenv('OANDA-Demo-1')
 if not all([MT5_LOGIN, MT5_PASSWORD, MT5_SERVER]):
     logger.warning("MT5 credentials not found in environment variables. Using demo mode")
     MT5_LOGIN = 5674847  # Demo values go here instead
-    MT5_PASSWORD = 'George_2002'
+    MT5_PASSWORD = ''
     MT5_SERVER = 'OANDA-Demo-1'
 
 class NumpyEncoder(json.JSONEncoder):
